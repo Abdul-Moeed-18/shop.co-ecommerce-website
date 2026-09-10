@@ -1,0 +1,616 @@
+[
+  {
+    "id": "p1",
+    "name": "Gradient Graphic T-shirt",
+    "category": "T-shirts",
+    "dressStyle": "Casual",
+    "price": 145,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 3.5,
+    "reviewCount": 34,
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#3B5FE2"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "A bold gradient graphic tee made from breathable 100% combed cotton. Relaxed fit, ribbed crew neck, built to layer or wear on its own.",
+    "isNew": true,
+    "createdAt": "2026-06-01",
+    "image": "/images/products/p1-gradient-graphic-tshirt.jpg"
+  },
+  {
+    "id": "p2",
+    "name": "Polo with Tipping Details",
+    "category": "Polo",
+    "dressStyle": "Casual",
+    "price": 180,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4.5,
+    "reviewCount": 61,
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "Red",
+        "hex": "#C22525"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Classic polo with contrast tipping on the collar and sleeves. Piqu\u00e9 cotton fabric that stays crisp through the day.",
+    "isNew": true,
+    "createdAt": "2026-06-02",
+    "image": "/images/products/p2-polo-tipping-details.jpg"
+  },
+  {
+    "id": "p3",
+    "name": "Black Striped T-shirt",
+    "category": "T-shirts",
+    "dressStyle": "Casual",
+    "price": 120,
+    "originalPrice": 150,
+    "discount": 20,
+    "rating": 5,
+    "reviewCount": 79,
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Fine black and white stripes on a soft cotton-jersey tee. An easy staple that pairs with everything.",
+    "isNew": true,
+    "createdAt": "2026-06-03",
+    "image": "/images/products/p3-black-striped-tshirt.jpg"
+  },
+  {
+    "id": "p4",
+    "name": "Skinny Fit Jeans",
+    "category": "Jeans",
+    "dressStyle": "Casual",
+    "price": 240,
+    "originalPrice": 260,
+    "discount": 20,
+    "rating": 3.5,
+    "reviewCount": 45,
+    "colors": [
+      {
+        "name": "Indigo",
+        "hex": "#2B3A67"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "description": "Stretch-denim skinny jeans with a mid-rise waist. Tapered through the leg for a clean, modern silhouette.",
+    "isNew": true,
+    "createdAt": "2026-06-04",
+    "image": "/images/products/p4-skinny-fit-jeans.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "Checkered Shirt",
+    "category": "Shirts",
+    "dressStyle": "Casual",
+    "price": 180,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4.5,
+    "reviewCount": 56,
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#B23B3B"
+      },
+      {
+        "name": "Green",
+        "hex": "#3B6B4A"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Brushed cotton flannel shirt in a classic check. Button-down collar, relaxed fit, soft against the skin.",
+    "isNew": false,
+    "createdAt": "2026-05-20",
+    "image": "/images/products/p5-checkered-shirt.jpg"
+  },
+  {
+    "id": "p6",
+    "name": "Sleeve Striped T-shirt",
+    "category": "T-shirts",
+    "dressStyle": "Casual",
+    "price": 130,
+    "originalPrice": 160,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 38,
+    "colors": [
+      {
+        "name": "Olive",
+        "hex": "#6B6B3A"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "description": "Short-sleeve tee with a contrast stripe running down the sleeve. Lightweight jersey for warm days.",
+    "isNew": false,
+    "createdAt": "2026-05-18",
+    "image": "/images/products/p6-sleeve-striped-tshirt.jpg"
+  },
+  {
+    "id": "p7",
+    "name": "Vertical Striped Shirt",
+    "category": "Shirts",
+    "dressStyle": "Formal",
+    "price": 212,
+    "originalPrice": 232,
+    "discount": 20,
+    "rating": 5,
+    "reviewCount": 90,
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Crisp poplin shirt in a fine vertical stripe. Tailored fit that works equally well at the desk or after hours.",
+    "isNew": false,
+    "createdAt": "2026-05-10",
+    "image": "/images/products/p7-vertical-striped-shirt.jpg"
+  },
+  {
+    "id": "p8",
+    "name": "Courage Graphic T-shirt",
+    "category": "T-shirts",
+    "dressStyle": "Casual",
+    "price": 145,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4,
+    "reviewCount": 22,
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#C22525"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Heavyweight tee with a bold front graphic print. Garment-washed for a broken-in feel from day one.",
+    "isNew": false,
+    "createdAt": "2026-05-05",
+    "image": "/images/products/p8-courage-graphic-tshirt.jpg"
+  },
+  {
+    "id": "p9",
+    "name": "Loose Fit Bermuda Shorts",
+    "category": "Shorts",
+    "dressStyle": "Casual",
+    "price": 80,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 3,
+    "reviewCount": 14,
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#D8C9A3"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Relaxed Bermuda shorts in mid-weight cotton twill. Drawstring waist, side seam pockets.",
+    "isNew": false,
+    "createdAt": "2026-04-28",
+    "image": "/images/products/p9-loose-fit-bermuda-shorts.jpg"
+  },
+  {
+    "id": "p10",
+    "name": "Faded Skinny Jeans",
+    "category": "Jeans",
+    "dressStyle": "Casual",
+    "price": 210,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4,
+    "reviewCount": 27,
+    "colors": [
+      {
+        "name": "Light Blue",
+        "hex": "#9DB6D9"
+      }
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "description": "Sun-faded wash skinny jeans with a touch of stretch for all-day comfort.",
+    "isNew": false,
+    "createdAt": "2026-04-15",
+    "image": "/images/products/p10-faded-skinny-jeans.jpg"
+  },
+  {
+    "id": "p11",
+    "name": "One Life Graphic T-shirt",
+    "category": "T-shirts",
+    "dressStyle": "Casual",
+    "price": 260,
+    "originalPrice": 300,
+    "discount": 40,
+    "rating": 4.5,
+    "reviewCount": 87,
+    "colors": [
+      {
+        "name": "Olive",
+        "hex": "#5C5A3B"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F2A44"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "This graphic t-shirt, which is perfect for any occasion, is crafted from a soft and breathable fabric.",
+    "isNew": true,
+    "createdAt": "2026-06-10",
+    "image": "/images/products/p11-one-life-graphic-tshirt.jpg"
+  },
+  {
+    "id": "p12",
+    "name": "Fit Cargo Trousers",
+    "category": "Trousers",
+    "dressStyle": "Casual",
+    "price": 220,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4,
+    "reviewCount": 19,
+    "colors": [
+      {
+        "name": "Khaki",
+        "hex": "#8A8360"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "description": "Utility cargo trousers with multiple pockets and a tapered leg. Durable ripstop cotton blend.",
+    "isNew": false,
+    "createdAt": "2026-04-02",
+    "image": "/images/products/p12-cargo-trousers.jpg"
+  },
+  {
+    "id": "p13",
+    "name": "Classic Pullover Hoodie",
+    "category": "Hoodies",
+    "dressStyle": "Casual",
+    "price": 195,
+    "originalPrice": 230,
+    "discount": 15,
+    "rating": 4.5,
+    "reviewCount": 52,
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#8C8C8C"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large",
+      "XX-Large"
+    ],
+    "description": "Midweight fleece hoodie with a kangaroo pocket and adjustable drawstring hood.",
+    "isNew": false,
+    "createdAt": "2026-03-22",
+    "image": "/images/products/p13-classic-pullover-hoodie.jpg"
+  },
+  {
+    "id": "p14",
+    "name": "Tapered Formal Trousers",
+    "category": "Trousers",
+    "dressStyle": "Formal",
+    "price": 250,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4,
+    "reviewCount": 31,
+    "colors": [
+      {
+        "name": "Charcoal",
+        "hex": "#3A3A3A"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F2A44"
+      }
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "description": "Wool-blend tailored trousers with a tapered leg and clean front crease. Built for the office and beyond.",
+    "isNew": false,
+    "createdAt": "2026-03-11",
+    "image": "/images/products/p14-tapered-formal-trousers.jpg"
+  },
+  {
+    "id": "p15",
+    "name": "Oversized Gym Tee",
+    "category": "T-shirts",
+    "dressStyle": "Gym",
+    "price": 95,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4,
+    "reviewCount": 17,
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8C8C8C"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Quick-dry performance tee with a drop-shoulder oversized cut. Built to move with you.",
+    "isNew": true,
+    "createdAt": "2026-06-05",
+    "image": "/images/products/p15-oversized-gym-tee.jpg"
+  },
+  {
+    "id": "p16",
+    "name": "Slim Fit Coat Pant",
+    "category": "Blazers",
+    "dressStyle": "Formal",
+    "price": 420,
+    "originalPrice": 480,
+    "discount": 12,
+    "rating": 5,
+    "reviewCount": 41,
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F2A44"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Structured slim-fit blazer with a half-canvas construction and notch lapel.",
+    "isNew": false,
+    "createdAt": "2026-02-14",
+    "image": "/images/products/p16-slim-fit-blazer.jpg"
+  },
+  {
+    "id": "p17",
+    "name": "Party Sequin Shirt",
+    "category": "Shirts",
+    "dressStyle": "Party",
+    "price": 260,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 4,
+    "reviewCount": 12,
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#C9A227"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "description": "Statement sequin shirt for evenings that call for a little shine. Regular fit, full button placket.",
+    "isNew": true,
+    "createdAt": "2026-06-08",
+    "image": "/images/products/p17-party-sequin-shirt.jpg"
+  },
+  {
+    "id": "p18",
+    "name": "Track Jacket",
+    "category": "Jackets",
+    "dressStyle": "Gym",
+    "price": 175,
+    "originalPrice": 200,
+    "discount": 12,
+    "rating": 4,
+    "reviewCount": 29,
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "Blue",
+        "hex": "#3B5FE2"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Full-zip track jacket in a lightweight shell fabric with taped side stripes.",
+    "isNew": false,
+    "createdAt": "2026-03-02",
+    "image": "/images/products/p18-track-jacket.jpg"
+  },
+  {
+    "id": "p19",
+    "name": "Wide Leg Chinos",
+    "category": "Trousers",
+    "dressStyle": "Casual",
+    "price": 190,
+    "originalPrice": null,
+    "discount": 0,
+    "rating": 3.5,
+    "reviewCount": 9,
+    "colors": [
+      {
+        "name": "Stone",
+        "hex": "#C9C1AE"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "description": "Relaxed wide-leg chinos in a soft cotton twill with a comfortable elastic-back waistband.",
+    "isNew": false,
+    "createdAt": "2026-02-27",
+    "image": "/images/products/p19-wide-leg-chinos.jpg"
+  },
+  {
+    "id": "p20",
+    "name": "Denim Jacket",
+    "category": "Jackets",
+    "dressStyle": "Casual",
+    "price": 230,
+    "originalPrice": 260,
+    "discount": 11,
+    "rating": 4.5,
+    "reviewCount": 63,
+    "colors": [
+      {
+        "name": "Indigo",
+        "hex": "#2B3A67"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "description": "Classic trucker jacket in rigid denim that softens and fades with wear.",
+    "isNew": true,
+    "createdAt": "2026-06-12",
+    "image": "/images/products/p20-denim-jacket.jpg"
+  }
+]
