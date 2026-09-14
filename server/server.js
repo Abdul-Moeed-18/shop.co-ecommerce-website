@@ -1,9 +1,11 @@
 require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const path = require("path");
-
+const mongoose = require("mongoose");
+const adminRoutes = require("./routes/admin");
 const { attachUser } = require("./middleware/auth");
 const productRoutes = require("./routes/products");
 const authRoutes = require("./routes/auth");
@@ -11,15 +13,24 @@ const cartRoutes = require("./routes/cart");
 const orderRoutes = require("./routes/orders");
 
 const app = express();
+
 const PORT = process.env.PORT || 5000;
 const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173";
 const IS_VERCEL = !!process.env.VERCEL;
 
-app.use(cors({ origin: CLIENT_ORIGIN, credentials: true }));
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("MongoDB connection error:", err));
+
+app.use(cors({
+  origin: CLIENT_ORIGIN,
+  credentials: true
+}));
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(attachUser);
-
+app.use("/api/admin", adminRoutes);
 app.get("/api/health", (req, res) => res.json({ ok: true }));
 
 app.use("/api/auth", authRoutes);

@@ -81,16 +81,31 @@ export default function Header() {
           </form>
 
           <div className="flex items-center gap-3 sm:gap-4 ml-auto shrink-0">
+            {/* Cart */}
             <Link to="/cart" className="relative" aria-label="Cart">
               <ShoppingCart size={22} className="sm:hidden" />
               <ShoppingCart size={24} className="hidden sm:block" />
+
               {itemCount > 0 && (
                 <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-black text-[10px] font-medium text-white">
                   {itemCount}
                 </span>
               )}
             </Link>
-            <Link to={user ? "/account" : "/login"} aria-label="Account">
+
+            {/* Admin */}
+            <Link
+              to="/admin"
+              className="inline-flex items-center justify-center rounded-full bg-black px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-gray-800 hover:scale-105 hover:shadow-md active:scale-95"
+            >
+              <Link
+                to={user ? "/account" : "/login"}
+                aria-label="Account"
+              >
+                Admin
+              </Link>
+              {/* Account */}
+
               <User size={22} className="sm:hidden" />
               <User size={24} className="hidden sm:block" />
             </Link>
