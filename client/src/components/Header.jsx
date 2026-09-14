@@ -98,12 +98,7 @@ export default function Header() {
               to="/admin"
               className="inline-flex items-center justify-center rounded-full bg-black px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-gray-800 hover:scale-105 hover:shadow-md active:scale-95"
             >
-              <Link
-                to={user ? "/account" : "/login"}
-                aria-label="Account"
-              >
-                Admin
-              </Link>
+              Admin
               {/* Account */}
 
               <User size={22} className="sm:hidden" />
